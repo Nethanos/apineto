@@ -1,5 +1,5 @@
 const request = require('supertest');
-const dateRegex = require('./../../src/utils/date-template-regex');
+const dateRegex = require('../../src/utils/date-template-regex');
 const app = require('../../src/app');
 
 test('should respond with status 200', async () => {
