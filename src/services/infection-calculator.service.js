@@ -8,13 +8,13 @@ const FOLLOWING_OMS_RULES = 15;
 
 function calculateInfectionProbability(personInformationParams) {
 
-    let diseaseProbability = _mountCalculationOperators(personInformationParams);
+    let deseaseProbability = _mountCalculationOperators(personInformationParams);
 
     if (personInformationParams.isFollowingOMSRule == 'true') {
-        diseaseProbability = diseaseProbability - FOLLOWING_OMS_RULES;
+        deseaseProbability = deseaseProbability - FOLLOWING_OMS_RULES;
     }
 
-    return diseaseProbability;
+    return deseaseProbability;
 
 }
 
