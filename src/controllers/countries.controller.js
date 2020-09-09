@@ -3,5 +3,5 @@ const getCountriesBySortedConfirmedCases = require('../services/countries.servic
 
 module.exports = (req, res) => {
     const countries = getCountriesBySortedConfirmedCases();
-    return res.json(countries);
+    return res.status(200).json(countries);
 }

@@ -1,5 +1,5 @@
 const COUNTRIES = require('../../db');
-const formatDate = require('./formatDate.service');
+const formatDate = require('./format-date.service');
 
 function getCountriesBySortedConfirmedCases() {
     const sortedCountries = COUNTRIES.map((country) => {

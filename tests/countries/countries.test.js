@@ -9,4 +9,5 @@ test('Get countries sorted by number of cases', () => {
     const countryList = getCountriesBySortedConfirmedCases();
     expect(countryList[0].country).toBe('USA');
     expect(countryList[4].country).toBe('Peru');
+
 })
